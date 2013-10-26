@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/RootLayout"
+    android:orientation="vertical" >
+    
+	<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout 
+		    style="?pageBackground"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"			  
+		    android:orientation="vertical" >
+		    
+            <TextView
+		        android:id="@+id/tv_title"		          
+		        android:textSize="30sp"
+		        android:layout_margin="8dp"
+		        style="@style/EventTextView" />
+            
+            <TextView
+		        android:id="@+id/tv_description"		        
+		        android:textSize="20sp"
+		        android:layout_margin="8dp"
+		        style="@style/EventTextView" />
+            
+            <TextView
+		        android:id="@+id/tv_start_time"	      
+		        android:textSize="14sp"
+		        android:layout_marginTop="8dp"
+		        style="@style/EventTextView" />
+            
+            <TextView
+		        android:id="@+id/tv_end_time"		          
+		        android:textSize="14sp"
+		        style="@style/EventTextView" />
+            
+            <EditText 
+			    android:id="@+id/edit_message"
+			    android:layout_width="fill_parent"
+			    android:layout_height="50dp"
+			    android:layout_margin="8dp" />	    		    
+		    
+		    <Button
+			    android:id="@+id/btn_attach_photo"
+			    android:text="Attach Photo"
+			    style="@style/SessionButton" />
+		    
+		    <Button
+			    android:id="@+id/btn_attach_video"	    
+			    android:text="Attach Video"
+			    style="@style/SessionButton" />		    		    
+		    
+		    <Button
+			    android:id="@+id/btn_send"
+			    android:text="Send to Glass"
+			    style="@style/SessionButton" />
+		    
+		    <Button
+			    android:id="@+id/btn_delete"
+			    android:text="Delete from Glass"
+			    style="@style/SessionButton" />
+		    
+		    <Button
+			    android:id="@+id/btn_back"
+			    android:text="Back"
+			    style="@style/SessionButton" />
+	    
+        </LinearLayout>        	    
+    
+	</ScrollView>
+	
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dip"
+    android:background="@drawable/selector_event_list"
+    android:orientation="horizontal" >
+ 
+    <!--  ListRow Left side Thumbnail image -->
+    <!-- <LinearLayout android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="2dip"
+        android:background="@color/bk_gray"
+        android:layout_marginRight="2dip">
+ 
+        <ImageView
+            android:id="@+id/action_image"
+            android:layout_width="60dip"
+            android:layout_height="60dip"
+            android:src="@drawable/lock"/>
+ 
+    </LinearLayout> -->
+ 
+    <LinearLayout 
+        android:id="@+id/event"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"          
+		android:layout_gravity="center_vertical"      
+        android:orientation="vertical" >
+        
+	    <TextView
+	        android:id="@+id/title"	          
+	        android:textSize="24sp"
+	        style="@style/EventTextView" />
+	 
+	    <TextView
+	        android:id="@+id/start_time"
+	        android:textSize="14sp"
+	        style="@style/EventTextView" />
+	    
+	    <TextView
+	        android:id="@+id/end_time"	        
+	        android:textSize="14sp"
+	        style="@style/EventTextView" />    
+	        
+    </LinearLayout>
+ 
+</LinearLayout>

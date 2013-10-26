@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">SupportMe</string>
+    <string name="accounts">Accounts</string>
+    <string name="refresh">Refresh</string>
+    <string name="send_successfully">Message has been sent to google glass successfully!</string>
+    <string name="delete_successfully">Message has been deleted successfully!</string>
+    <string name="error">Error</string>
+    <string name="error_format">[Error] %s</string>
+</resources>
